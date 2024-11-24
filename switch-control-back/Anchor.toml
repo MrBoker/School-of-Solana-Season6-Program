@@ -1,0 +1,21 @@
+[toolchain]
+
+[features]
+seeds = true
+skip-lint = false
+
+[programs.localnet]
+switch_control_back = "ZEezLrad25hbcLTM54uz6E3knHUmQnLjohixBUx2ZRc"
+
+[programs.devnet]
+switch_control_back = "ZEezLrad25hbcLTM54uz6E3knHUmQnLjohixBUx2ZRc"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/imacpro/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
