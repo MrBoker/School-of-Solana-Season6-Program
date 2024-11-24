@@ -11,7 +11,7 @@ This project is a very easy demonstration of how to store a piece of information
 This is a schematic that represents the idea:
 ![Sin título-2024-11-16-1031 2](https://github.com/user-attachments/assets/1e1bdf30-914d-4462-9be2-30f76f391c1a)
 
-You can manage these apps in this links:
+You can manage these apps in these links:
     Switch-Master-Control: https://switch-master-control.vercel.app/
     Switch-Master-Control-Client: https://switch-master-control-client.vercel.app/
 
