@@ -1,6 +1,22 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/wFAkMYEB)
 ![School of Solana](https://github.com/Ackee-Blockchain/school-of-solana/blob/master/.banner/banner.png?raw=true)
 
+## Project: Switch Control, a solution to control up to 8 devices over the Internet
+This project is a very easy demonstration of how to store a piece of information in the blockchain that can be consumed by others. This project will implement a system that could control 8 switches to swith on/off up to 8 devices over the internet, storing 1 byte in a Solana PDA and using 2 different front aplications, the controller one to update the switches states, and the consumer one to read the value and switch on/off the devices. In total, this project has these different components:
+
+    1. Switch-Control-Back. A Rust program to implement the blockchain logic.
+    2. Switch-Master-Control. A web page to implement de master-control of the switches, calling the blockchain logic as needed.
+    3. Switch-Master-Control-Client. One o more web pages to implement the client side, that reads the state from the blockchain periodically and reflects that state to the user.
+
+This is a schematic that represents the idea:
+![Sin título-2024-11-16-1031 2](https://github.com/user-attachments/assets/1e1bdf30-914d-4462-9be2-30f76f391c1a)
+
+You can manage these apps in this links:
+    Switch-Master-Control: https://switch-master-control.vercel.app/
+    Switch-Master-Control-Client: https://switch-master-control-client.vercel.app/
+
+Note: every module has its own README.md with more details.
+
 ## 📚Solana Program
 We are more than halfway through the course, and you already have some experience with programming on Solana. It is time to create something on your own! You will be building a dApp that will serve as the culmination of everything you have learned so far. Feel free to implement whatever comes to your mind, (as long as it passes the requirements) it may result in a truly great idea!
 
