@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "jsx": "react", // O "react-jsx" si usas React 17 o posterior
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["react", "react-dom"] // Asegúrate de que esto esté presente
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
