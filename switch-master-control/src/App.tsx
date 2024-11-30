@@ -61,6 +61,15 @@ function App() {
       <WalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>
           <div className="wallet-container">
+            {/* Instructions */}
+            <div className="instructions">
+              <p>Instructions:</p>
+              <ol>
+                <li>Select wallet</li>
+                <li>Set the state of every switch as desired</li>
+                <li>Push the button "Update" and approve the transaction</li>
+              </ol>
+            </div>
             <WalletMultiButton />
           </div>
           <h1 className="heading">Switch Master Control</h1>
@@ -82,7 +91,7 @@ function App() {
           <div
             style={{
               position: "absolute",
-              top: "210px",     
+              top: "340px",     
               left: "5px",   
             }}
           >
@@ -111,7 +120,7 @@ function App() {
           <div
             style={{
               position: "absolute",
-              top: "330px",
+              top: "450px",
               left: "20px",
             }}
           >

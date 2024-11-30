@@ -8,7 +8,7 @@ This is the front-end Master Control module, that let the user manipulate all th
 
 You can view the program working in this link. You can change the state of every switch and update (push button) that state in the blockchain. You need a wallet configured in Devnet. Once updated, these switches states is propagated to the client side.
 
-https://switch-master-control.vercel.app/
+https://switch-master-control-v2.vercel.app/
 
 # React + TypeScript + Vite
 
